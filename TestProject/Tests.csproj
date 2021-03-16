@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ReverseArray\ReverseArray.csproj" />
+    <ProjectReference Include="..\ReverseWords\ReverseWords.csproj" />
   </ItemGroup>
 
 </Project>

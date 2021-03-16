@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseArray", "ReverseArray\ReverseArray.csproj", "{28B11AAF-8268-4F15-92B8-B88EC56973EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseArray", "ReverseArray\ReverseArray.csproj", "{28B11AAF-8268-4F15-92B8-B88EC56973EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "TestProject\Tests.csproj", "{B22E84C3-1968-45B8-962F-564F6D7636CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "TestProject\Tests.csproj", "{B22E84C3-1968-45B8-962F-564F6D7636CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseWords", "ReverseWords\ReverseWords.csproj", "{D9B5BCE1-00CA-4C77-B36F-34EAB2C3367F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B22E84C3-1968-45B8-962F-564F6D7636CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B22E84C3-1968-45B8-962F-564F6D7636CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B22E84C3-1968-45B8-962F-564F6D7636CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9B5BCE1-00CA-4C77-B36F-34EAB2C3367F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9B5BCE1-00CA-4C77-B36F-34EAB2C3367F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9B5BCE1-00CA-4C77-B36F-34EAB2C3367F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9B5BCE1-00CA-4C77-B36F-34EAB2C3367F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
