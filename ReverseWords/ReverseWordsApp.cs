@@ -1,5 +1,4 @@
-﻿using System;
-using System.Text;
+﻿using System.Text;
 /// <summary>
 /// Complete the fuction that accepts a string parameter, and reverses each word in the string.
 /// All spaces in the string should be reatained.
@@ -9,15 +8,6 @@ using System.Text;
 /// </summary>
 namespace ReverseWords
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
-    }
-
-
     public class ReverseWordsApp
     {
         public string ReverseWords(string str)
