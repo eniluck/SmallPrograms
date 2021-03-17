@@ -1,4 +1,6 @@
-﻿using System.Text;
+﻿using System;
+using System.Linq;
+using System.Text;
 /// <summary>
 /// Complete the fuction that accepts a string parameter, and reverses each word in the string.
 /// All spaces in the string should be reatained.
@@ -10,6 +12,15 @@ namespace ReverseWords
 {
     public class ReverseWordsApp
     {
+        public string ReverseWordsLinq(string str)
+        {
+            string[] strArr = str.Split(" ");
+
+            var result = strArr.Select( word=> new string(word.Reverse().ToArray())).ToArray();
+
+            return string.Join(" ", result);
+        }
+
         public string ReverseWords(string str)
         {
             StringBuilder reverseSb = new StringBuilder();

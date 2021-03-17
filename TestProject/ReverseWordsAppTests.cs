@@ -20,5 +20,17 @@ namespace Tests
             var result = new ReverseWordsApp().ReverseWords(str);
             Assert.AreEqual(result, expectedResult);
         }
+
+
+        [Test]
+        [TestCase("This is an example!", "sihT si na !elpmaxe")]
+        [TestCase("double  spaces", "elbuod  secaps")]
+        [TestCase(" example ", " elpmaxe ")]
+        [TestCase("     ", "     ")]
+        public void ReverseWordsLinq_ShouldReturnReverseString(string str, string expectedResult)
+        {
+            var result = new ReverseWordsApp().ReverseWordsLinq(str);
+            Assert.AreEqual(result, expectedResult);
+        }
     }
 }
