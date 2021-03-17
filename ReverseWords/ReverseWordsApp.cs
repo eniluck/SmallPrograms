@@ -14,11 +14,7 @@ namespace ReverseWords
     {
         public string ReverseWordsLinq(string str)
         {
-            string[] strArr = str.Split(" ");
-
-            var result = strArr.Select( word=> new string(word.Reverse().ToArray())).ToArray();
-
-            return string.Join(" ", result);
+            return string.Join(" ", str.Split(" ").Select(word => new string(word.Reverse().ToArray())));
         }
 
         public string ReverseWords(string str)
