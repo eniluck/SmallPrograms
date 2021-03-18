@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseArray", "ReverseArra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "TestProject\Tests.csproj", "{B22E84C3-1968-45B8-962F-564F6D7636CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseWords", "ReverseWords\ReverseWords.csproj", "{D9B5BCE1-00CA-4C77-B36F-34EAB2C3367F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseWords", "ReverseWords\ReverseWords.csproj", "{D9B5BCE1-00CA-4C77-B36F-34EAB2C3367F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanConvert", "RomanConvert\RomanConvert.csproj", "{6F01B366-3C96-4F00-A80C-11032319CEFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{D9B5BCE1-00CA-4C77-B36F-34EAB2C3367F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9B5BCE1-00CA-4C77-B36F-34EAB2C3367F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9B5BCE1-00CA-4C77-B36F-34EAB2C3367F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F01B366-3C96-4F00-A80C-11032319CEFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F01B366-3C96-4F00-A80C-11032319CEFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F01B366-3C96-4F00-A80C-11032319CEFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F01B366-3C96-4F00-A80C-11032319CEFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

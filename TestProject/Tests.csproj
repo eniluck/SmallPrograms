@@ -15,6 +15,7 @@
   <ItemGroup>
     <ProjectReference Include="..\ReverseArray\ReverseArray.csproj" />
     <ProjectReference Include="..\ReverseWords\ReverseWords.csproj" />
+    <ProjectReference Include="..\RomanConvert\RomanConvert.csproj" />
   </ItemGroup>
 
 </Project>
