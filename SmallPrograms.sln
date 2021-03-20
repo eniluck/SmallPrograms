@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "TestProject\Tests.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseWords", "ReverseWords\ReverseWords.csproj", "{D9B5BCE1-00CA-4C77-B36F-34EAB2C3367F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanConvert", "RomanConvert\RomanConvert.csproj", "{6F01B366-3C96-4F00-A80C-11032319CEFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RomanConvert", "RomanConvert\RomanConvert.csproj", "{6F01B366-3C96-4F00-A80C-11032319CEFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JadenCase", "JadenCase\JadenCase.csproj", "{B6C88232-09A6-49BF-9969-4B203843B95D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{6F01B366-3C96-4F00-A80C-11032319CEFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F01B366-3C96-4F00-A80C-11032319CEFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F01B366-3C96-4F00-A80C-11032319CEFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6C88232-09A6-49BF-9969-4B203843B95D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6C88232-09A6-49BF-9969-4B203843B95D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6C88232-09A6-49BF-9969-4B203843B95D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6C88232-09A6-49BF-9969-4B203843B95D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
