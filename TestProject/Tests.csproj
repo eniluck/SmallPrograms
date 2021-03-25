@@ -17,6 +17,7 @@
     <ProjectReference Include="..\ReverseArray\ReverseArray.csproj" />
     <ProjectReference Include="..\ReverseWords\ReverseWords.csproj" />
     <ProjectReference Include="..\RomanConvert\RomanConvert.csproj" />
+    <ProjectReference Include="..\Stop_gninnipS_My_sdroW\Stop_gninnipS_My_sdroW.csproj" />
     <ProjectReference Include="..\TakeATenMinuteWalk\TakeATenMinuteWalk.csproj" />
   </ItemGroup>
 
